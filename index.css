@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+a{
+  color: white;
+  text-decoration: none;
+}
+body{
+  background-color: rgb(214, 205, 205);
+}
+.navbar {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  }
+
+.item{
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 20px;
+  display: inline-flex;
+  grid-area: item;
+  padding: 10px 10px;
+  margin: 13px 2px;
+}
+.item li a{
+  padding: 6px 45px;
+}
+
+li :hover{
+  cursor: pointer;
+  background-color: red;
+}
+li a:active {
+  background-color: red;
+}
+/* this is for content */
+.content{
+  background-color:whitesmoke;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 55px;
+  height: 205px;
+  padding-left: 150px;
+  margin-top: 17px;
+}
+.semi{
+  padding-left: 2px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+
+}
+
+.semi p{
+   padding-left: 9px;
+   
+}
+.video1{
+  padding-left: 2px;
+
+  display: flex;
+  
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77); 
+  box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77);
+}
+.btn{
+  background-color: red;
+  color: white;
+  margin: 12px 7px;
+  padding: 6px 9px;
+}
+
+/* sub content part */
+.subcontent{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-gap: 55px;
+  height: 205px;
+  padding-left: 150px;
+  margin-top: 17px;
+  height: 290px;
+  justify-content: center;
+  align-items: center;
+}
+.subsec{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+ 
+  
+}
+ /* middle section */
+ .product{
+   display: grid;
+   grid-template-columns: 1fr ;
+   grid-template-rows: 1.5fr .5fr 2fr;
+   grid-gap: 5px;
+   height: 205px;
+   border: 2px solid black;
+   padding-left: 150px;
+   margin-top: 17px;
+   height: 500px;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+ .heading2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 6px 6px;
+ }
+ .middle{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .midbar{
+   display: inline-flex;
+   
+}
+.midbar li{
+  
+  padding: 10px 19px;
+  margin: 13px 2px;
+
+}
+
+.pro-end{
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+.pro-end img{
+  height: 100px;
+  width: 100px;
+}
