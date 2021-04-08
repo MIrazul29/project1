@@ -11,13 +11,14 @@ a{
   color: white;
   text-decoration: none;
 }
-body{
+/* body{
   background-color: rgb(214, 205, 205);
-}
+} */
 .navbar {
   display:flex;
   justify-content: center;
   align-items: center;
+  
   
  
   }
@@ -49,9 +50,11 @@ li a:active {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 55px;
-  height: 205px;
+
   padding-left: 150px;
   margin-top: 17px;
+  height: 500px;
+  
 }
 .semi{
   padding-left: 2px;
@@ -71,15 +74,12 @@ li a:active {
 }
 .video1{
   padding-left: 2px;
-
   display: flex;
-  
-
   justify-content: center;
   align-items: center;
   text-align: center;
-  -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77); 
-  box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77);
+  /* -webkit-box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77); 
+  box-shadow: 0px 0px 8px 3px rgba(0,0,0,0.77); */
 }
 .btn{
   background-color: red;
@@ -90,15 +90,13 @@ li a:active {
 
 /* sub content part */
 .subcontent{
- 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 55px;
-  height: 205px;
+  height: 520px;
   padding-left: 150px;
   margin-top: 17px;
-  height: 290px;
   justify-content: center;
   align-items: center;
 }
@@ -106,22 +104,45 @@ li a:active {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
- 
-  
 }
+.one{
+  padding: 18px 26px;
+  margin: 31px 21px;
+}
+.two{
+  padding: 18px 26px;
+  margin: 31px 21px;
+}
+.three{
+  padding: 18px 26px;
+  margin: 31px 21px;
+}
+.four{
+  padding: 18px 26px;
+  margin: 31px 21px;
+}
+.btn2{
+ 
+  background-color: cornsilk;
+  color:black;
+  margin: 36px 52px;
+  padding: 13px 30px;
+}
+
  /* middle section */
  .product{
    display: grid;
    grid-template-columns: 1fr ;
    grid-template-rows: 1.5fr .5fr 2fr;
    grid-gap: 5px;
-   height: 205px;
-   border: 2px solid black;
+  
+   border-top: 2px solid black; 
    padding-left: 150px;
    margin-top: 17px;
    height: 500px;
    justify-content: center;
    align-items: center;
+  
 
  }
 
@@ -140,6 +161,9 @@ li a:active {
  .midbar{
    display: inline-flex;
    
+}
+.midbar a{
+  color: black;
 }
 .midbar li{
   
