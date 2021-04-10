@@ -223,19 +223,27 @@ li a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-area: "heading  subheading subheading"
-  "mainimg subimg subimg"
-  "mainimg subimg subimg";
+  grid-template-areas: "heading3  subheading subheading"
+  "mainimg secondaryimg secondaryimg"
+  "mainimg secondaryimg secondaryimg";
+  padding-top: 150px;
+  width: 100%;
+  height: 500px;
 }
 .heading3{
-  grid-area: heading;
+  grid-area: heading3;
 }
 .subheading{
   grid-area: subheading;
 }
 .mainimg{
   grid-area: mainimg;
+  border: 2px solid black;
 }
 .secondaryimg{
-  grid-area: subimg;
+  grid-area: secondaryimg;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border: 2px solid black;
 }
