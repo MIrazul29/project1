@@ -98,7 +98,7 @@ li a:active {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   grid-gap: 55px;
-  height: 520px;
+  height: 610px;
   padding-left: 150px;
   margin-top: 17px;
   justify-content: center;
@@ -155,7 +155,7 @@ li a:active {
   width: 25%;
   margin:auto;
   height: 1px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(51, 33, 63);
   margin-top: 10px;
   opacity: .7;
   
@@ -168,7 +168,7 @@ li a:active {
    grid-gap: 5px;
    padding-left: 150px;
    margin-top: 17px;
-   height: 500px;
+   height: 640px;
    justify-content: center;
    align-items: center;
   
@@ -189,7 +189,7 @@ li a:active {
  }
  .midbar{
    display: inline-flex;
-   text-decoration: underline;
+   
    font-size: 25px
    
 }
@@ -197,7 +197,7 @@ li a:active {
   color: black;
 }
 .midbar li{
-  
+  border: 2px solid rgb(165, 165, 165);
   padding: 10px 19px;
   margin: 13px 2px;
 
@@ -214,7 +214,7 @@ li a:active {
 .pro-end img{
   display: flex;
   justify-content: center;
- border: 2px solid black;
+ 
  height: 182px;
  width: 182px;
 }
@@ -223,27 +223,58 @@ li a:active {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "heading3  subheading subheading"
-  "mainimg secondaryimg secondaryimg"
+  grid-template-areas: "heading3  heading3 heading3"
+  "mainimg subheading subheading"
   "mainimg secondaryimg secondaryimg";
-  padding-top: 150px;
+  padding-top: 55px;
   width: 100%;
   height: 500px;
+ 
+}
+.hr3{
+  
+  width: 15%;
+  height: 1px;
+  background-color: rgb(252, 6, 6);
+  margin-top: 10px;
+  opacity: .7;
+  
 }
 .heading3{
   grid-area: heading3;
+  display: flex;
+  flex-direction: column;
+  margin-left: 95px;
+  
 }
 .subheading{
   grid-area: subheading;
+  display: block;
+  text-align: center;
 }
 .mainimg{
   grid-area: mainimg;
-  border: 2px solid black;
+  
 }
 .secondaryimg{
   grid-area: secondaryimg;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  border: 2px solid black;
+  grid-template-rows: 1fr ;
+  
+}
+
+
+.team img{
+  height: 360px;
+  width: 285px;
+  display: block;
+  margin: 7px auto;
+  
+}
+.secondaryimg img{
+    height: 245px;
+    display: block;
+    margin: 9px auto;
+    width: 245px;
 }
